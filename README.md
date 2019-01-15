@@ -23,7 +23,13 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
 GemVersionWrapper.build('1.0') # => <Gem::Version '1.0'>
+GemVersionWrapper.build('1.') # => <Gem::Version '1.0'>
+# compare with Gem::Version
+Gem::Version.new('1.0') # => <Gem::Version '1.0'>
+Gem::Version.new('1.') # => Exception
+```
 
 ## Development
 
