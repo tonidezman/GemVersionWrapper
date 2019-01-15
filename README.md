@@ -25,10 +25,10 @@ Or install it yourself as:
 
 ```ruby
 GemVersionWrapper.build('1.0') # => <Gem::Version '1.0'>
-GemVersionWrapper.build('1.') # => <Gem::Version '1.0'>
+GemVersionWrapper.build('1.')  # => <Gem::Version '1.0'>
 
-Gem::Version.new('1.0') # => <Gem::Version '1.0'>
-Gem::Version.new('1.') # => Exception
+Gem::Version.new('1.0')        # => <Gem::Version '1.0'>
+Gem::Version.new('1.')         # => Exception
 ```
 
 ## Development
