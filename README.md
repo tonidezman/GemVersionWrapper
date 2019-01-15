@@ -26,7 +26,7 @@ Or install it yourself as:
 ```ruby
 GemVersionWrapper.build('1.0') # => <Gem::Version '1.0'>
 GemVersionWrapper.build('1.') # => <Gem::Version '1.0'>
-# compare with Gem::Version
+
 Gem::Version.new('1.0') # => <Gem::Version '1.0'>
 Gem::Version.new('1.') # => Exception
 ```
@@ -39,7 +39,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/gem_version_wrapper.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tonidezman/GemVersionWrapper.
 
 ## License
 
