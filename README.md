@@ -2,7 +2,8 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gem_version_wrapper`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+With this gem you get GemVersionWrapper.build method that you can replace Gem::Version.new.
+Difference between the two is that GemVersionWrapper is more robust and it will not fail if you pass it to invalid input.
 
 ## Installation
 
@@ -22,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+GemVersionWrapper.build('1.0') # => <Gem::Version '1.0'>
 
 ## Development
 
